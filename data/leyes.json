@@ -1,0 +1,554 @@
+[
+  {
+    "id": "cpeum",
+    "nombre": "Constitución Política de los Estados Unidos Mexicanos",
+    "nombre_corto": "Constitución",
+    "siglas": "CPEUM",
+    "tipo": "Constitución",
+    "ambito": "Federal",
+    "materia": "constitucional",
+    "resumen": "Norma suprema del país. Los compañeros recurren a tres de sus artículos: el 4º (derecho a la cultura), el 16 (protección de datos personales y derechos ARCO) y el 123 (capacitación de los trabajadores).",
+    "vigencia": "Última reforma publicada en el DOF el 3 de marzo de 2026 (según Axel López).",
+    "enlace_oficial": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Rafael Arenas", "documento": "ArenasRiveraRafaelHeriberto_LeyesAplicablesProyecto_20261109_v1.1.docx" },
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" },
+      { "alumno": "Esmeralda Luna", "documento": "SIDNEC_LunaRomanoEsmeralda_LeyesProyecto_20261115_v1.1.docx" }
+    ],
+    "articulos": [
+      { "ref": "Art. 4º", "resumen": "Reconoce el derecho de toda persona al acceso a la cultura y al disfrute de los bienes y servicios que presta el Estado, y obliga a este a promover los medios para la difusión y el desarrollo de la cultura. Es la base de la Ley General de Cultura y de la Ley General de Bibliotecas.", "fuente": "Rafael Arenas" },
+      { "ref": "Art. 16, párr. 2", "resumen": "Reconoce la protección de los datos personales y los derechos de acceso, rectificación, cancelación y oposición (ARCO) como derechos fundamentales. Axel lo usa como base de la protección de datos.", "fuente": "Axel López" },
+      { "ref": "Art. 123, apdo. A, fr. XIII", "resumen": "Establece que los patrones deben dar capacitación o adiestramiento a sus trabajadores; la Ley Federal del Trabajo explica cómo se cumple esa obligación.", "fuente": "Esmeralda Luna" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "lgb",
+    "nombre": "Ley General de Bibliotecas",
+    "nombre_corto": "Ley General de Bibliotecas",
+    "siglas": "LGB",
+    "tipo": "Ley general",
+    "ambito": "Federal",
+    "materia": "cultura",
+    "resumen": "Regula la organización, funcionamiento, preservación y desarrollo de las bibliotecas en México, con énfasis en la Red Nacional de Bibliotecas Públicas: servicios gratuitos y sin discriminación, reparto de competencias entre Federación, estados y municipios, depósito legal y profesionalización del personal.",
+    "vigencia": "Publicada el 1 de junio de 2021; última reforma el 29 de noviembre de 2023 (según Rafael Arenas).",
+    "enlace_oficial": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgb.htm",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Rafael Arenas", "documento": "ArenasRiveraRafaelHeriberto_LeyesAplicablesProyecto_20261109_v1.1.docx" }
+    ],
+    "articulos": [
+      { "ref": "Sin artículo citado", "resumen": "Define la biblioteca pública (consulta gratuita y sin discriminación, con posible préstamo a domicilio y fomento a la lectura), declara de interés público su integración, preservación y apertura, y obliga a los gobiernos —incluidas las presidencias de comunidad como autoridades auxiliares— a promover, organizar y sostener bibliotecas públicas.", "fuente": "Rafael Arenas" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "lgcdc",
+    "nombre": "Ley General de Cultura y Derechos Culturales",
+    "nombre_corto": "Ley de Cultura y Derechos Culturales",
+    "siglas": "LGCDC",
+    "tipo": "Ley general",
+    "ambito": "Federal",
+    "materia": "cultura",
+    "resumen": "Ley reglamentaria del artículo 4º constitucional. Reconoce el derecho de toda persona a acceder a la cultura, al conocimiento y al patrimonio, fija principios para las instituciones (igualdad, inclusión, no discriminación) y la coordinación entre Federación, estados y municipios.",
+    "vigencia": "Publicada el 19 de junio de 2017; última reforma el 15 de enero de 2026 (según Rafael Arenas).",
+    "enlace_oficial": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgcdc.htm",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Rafael Arenas", "documento": "ArenasRiveraRafaelHeriberto_LeyesAplicablesProyecto_20261109_v1.1.docx" }
+    ],
+    "articulos": [
+      { "ref": "Sin artículo citado", "resumen": "Establece que el Estado debe promover el acceso libre a las bibliotecas públicas, incluye el derecho al acceso al conocimiento y a la información del patrimonio cultural, y obliga a los tres órdenes de gobierno a coordinarse para garantizar los derechos culturales.", "fuente": "Rafael Arenas" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "lgdnna",
+    "nombre": "Ley General de los Derechos de Niñas, Niños y Adolescentes",
+    "nombre_corto": "Derechos de Niñas, Niños y Adolescentes",
+    "siglas": "LGDNNA",
+    "tipo": "Ley general",
+    "ambito": "Federal",
+    "materia": "constitucional",
+    "resumen": "Reconoce a las personas menores de 18 años como titulares de derechos y obliga a todas las autoridades a garantizar su protección bajo el principio del interés superior de la niñez, incluida la protección de su intimidad y de sus datos personales.",
+    "vigencia": "Publicada el 4 de diciembre de 2014; última reforma el 15 de enero de 2026 (según las fuentes de Rafael Arenas).",
+    "enlace_oficial": "https://www.diputados.gob.mx/LeyesBiblio/ref/lgdnna.htm",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Rafael Arenas", "documento": "ArenasRiveraRafaelHeriberto_LeyesAplicablesProyecto_20261109_v1.1.docx" },
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Sin artículo citado", "resumen": "Fija el interés superior de la niñez en cualquier servicio donde se involucren menores, garantiza derechos como la educación, el acceso a la información y la participación cultural, prohíbe la divulgación o el manejo indebido de sus datos personales o imágenes y crea el Sistema Nacional de Protección (SIPINNA).", "fuente": "Rafael Arenas" },
+      { "ref": "Art. 76", "resumen": "Reconoce el derecho a la intimidad y a la protección de los datos personales de niñas, niños y adolescentes. Axel indica que la ubicación (Título Segundo, Capítulo Décimo Sexto) y el número de artículo deben confirmarse en el texto oficial.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": "El propio Axel pide confirmar el número de artículo en el texto oficial de la Cámara de Diputados."
+  },
+  {
+    "id": "lge",
+    "nombre": "Ley General de Educación",
+    "nombre_corto": "Ley General de Educación",
+    "siglas": "LGE",
+    "tipo": "Ley general",
+    "ambito": "Federal",
+    "materia": "cultura",
+    "resumen": "Regula la educación que imparte el Estado (obligatoria, universal, inclusiva, pública, gratuita y laica) y obliga a las autoridades a garantizar materiales didácticos, tecnologías y servicios bibliotecarios que fortalezcan el aprendizaje y el hábito de la lectura.",
+    "vigencia": "Publicada el 30 de septiembre de 2019; última reforma el 15 de enero de 2026 (según las fuentes de Rafael Arenas).",
+    "enlace_oficial": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGE.pdf",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Rafael Arenas", "documento": "ArenasRiveraRafaelHeriberto_LeyesAplicablesProyecto_20261109_v1.1.docx" },
+      { "alumno": "Fátima Cortés (solo mencionada en su marco jurídico)", "documento": "Presentación sobre protección jurídica del cliente.pptx" }
+    ],
+    "articulos": [
+      { "ref": "Sin artículo citado", "resumen": "El Estado debe fomentar los servicios bibliotecarios a través de las bibliotecas públicas para apoyar al sistema educativo nacional, y promover el fomento a la lectura y el uso de los libros.", "fuente": "Rafael Arenas" }
+    ],
+    "nota_sitio": "Fátima la nombra en el diagrama de su marco jurídico, sin artículos ni explicación."
+  },
+  {
+    "id": "lga",
+    "nombre": "Ley General de Archivos",
+    "nombre_corto": "Ley General de Archivos",
+    "siglas": "LGA",
+    "tipo": "Ley general",
+    "ambito": "Federal",
+    "materia": "archivos",
+    "resumen": "Establece las bases para organizar, administrar, conservar y preservar los documentos que generan o reciben las instituciones públicas, de modo que se mantengan íntegros, ordenados, disponibles y fáciles de localizar, y fija responsabilidades para que no se pierdan, dañen o eliminen sin seguir los procedimientos.",
+    "vigencia": "Publicada en el DOF el 15 de junio de 2018; última reforma el 14 de noviembre de 2025 (según Yaneli Cervantes).",
+    "enlace_oficial": "https://www.imss.gob.mx/sites/all/statics/pdf/leyes/4536_LGA.pdf",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Yaneli Cervantes", "documento": "SGAC_CervantesRamirezYaneli_Leyes_V.1.0_2026.11.14.docx" }
+    ],
+    "articulos": [
+      { "ref": "Art. 1", "resumen": "Objeto y ámbito de aplicación: organización, conservación, administración y preservación de archivos en posesión de autoridades y municipios.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 2", "resumen": "Objetivos de la ley: mejorar la organización, conservación, disponibilidad e integridad de los documentos y promover el uso de tecnologías de información para administrar los archivos.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 10", "resumen": "Cada sujeto obligado es responsable de organizar y conservar sus archivos y de evitar que los documentos y la información a su cargo sean sustraídos, dañados o eliminados indebidamente.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 11", "resumen": "Obligaciones de los sujetos obligados: administrar, organizar y conservar los documentos, establecer un sistema institucional de archivos, integrar expedientes y aplicar medidas de protección y resguardo.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 12", "resumen": "Los documentos deben mantenerse en el orden en que fueron producidos y seguir procesos de gestión documental: organización, consulta, valoración, disposición y conservación.", "fuente": "Yaneli Cervantes" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "lgdt",
+    "nombre": "Ley de Gobernanza Digital del Estado de Tlaxcala",
+    "nombre_corto": "Gobernanza Digital de Tlaxcala",
+    "siglas": "Gob. Digital",
+    "tipo": "Ley estatal",
+    "ambito": "Estatal (Tlaxcala)",
+    "materia": "archivos",
+    "resumen": "Fija bases, principios y mecanismos de coordinación para usar las tecnologías de la información y las comunicaciones en los servicios gubernamentales del Estado y sus municipios: gestión de datos, gobierno digital, infraestructura tecnológica y protección de los derechos de las personas usuarias.",
+    "vigencia": "Publicada el 3 de octubre de 2023, en vigor desde el 4 de octubre de 2023; el texto consultado no registra reformas (según Yaneli Cervantes).",
+    "enlace_oficial": "https://cjuridica.tlaxcala.gob.mx/images/leyes/Ley%20de%20Gobernanza%20Digital%20del%20Estado%20de%20Tlaxcala%2003.10.2023.pdf",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Yaneli Cervantes", "documento": "SGAC_CervantesRamirezYaneli_Leyes_V.1.0_2026.11.14.docx" }
+    ],
+    "articulos": [
+      { "ref": "Art. 1", "resumen": "Disposiciones generales: la ley es de orden público y de observancia obligatoria en el Estado de Tlaxcala y sus municipios.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 2", "resumen": "Objeto: establecer bases, principios, procedimientos y mecanismos de coordinación sobre gobernanza digital, gestión de datos, gobierno digital y aplicación de las TIC en los servicios gubernamentales.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 3", "resumen": "Fines: aprovechar las TIC como herramientas para vincular a las personas con los servicios del gobierno.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 4", "resumen": "Sujetos de la ley: incluye a los municipios, que deben realizar acciones de uso y aprovechamiento de las TIC dentro de sus competencias.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 11", "resumen": "Coordinación de dependencias y municipios: atención ciudadana, operación y resguardo de información y protección de datos personales.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 14", "resumen": "Principios rectores: digital desde el diseño, privacidad desde el diseño, proporcionalidad, transparencia, confidencialidad y usabilidad; pueden orientar el diseño y la seguridad del sistema.", "fuente": "Yaneli Cervantes" },
+      { "ref": "Art. 15", "resumen": "Derechos de las personas usuarias: acceder a sus datos y documentos en formato digital, conocer el avance de ciertos trámites y que su información sea tratada con seguridad y confidencialidad.", "fuente": "Yaneli Cervantes" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "lat",
+    "nombre": "Ley de Aguas para el Estado de Tlaxcala",
+    "nombre_corto": "Ley de Aguas de Tlaxcala",
+    "siglas": "Ley Aguas",
+    "tipo": "Ley estatal",
+    "ambito": "Estatal (Tlaxcala)",
+    "materia": "agua",
+    "resumen": "Marco estatal del servicio de agua potable: los ayuntamientos lo prestan mediante organismos operadores, que deben formular y mantener el padrón de usuarios, cobrar las tarifas con vigilancia de la tesorería y rendir cuentas. Los adeudos tienen carácter de créditos fiscales.",
+    "vigencia": "Texto con última reforma del 10 de mayo de 2021, de la Consejería Jurídica del Ejecutivo del Estado (según Cesar Baez).",
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Cesar Baez", "documento": "Presentacion_Ley_de_Aguas_Tlaxcala.pdf" }
+    ],
+    "articulos": [
+      { "ref": "Art. 3, fr. XLI", "resumen": "Define la toma como el punto de conexión entre la red secundaria y el predio (en el sistema: el domicilio de la toma).", "fuente": "Cesar Baez" },
+      { "ref": "Art. 4", "resumen": "Derechos del usuario: agua suficiente, segura e higiénica para uso personal y doméstico, y denunciar si se limita ese derecho. Deber: pagar puntualmente la tarifa.", "fuente": "Cesar Baez" },
+      { "ref": "Arts. 7 y 72", "resumen": "Los ayuntamientos prestan el servicio de agua potable mediante sus organismos operadores.", "fuente": "Cesar Baez" },
+      { "ref": "Art. 8", "resumen": "El organismo operador cobra con anuencia y vigilancia de la tesorería municipal y cumple con la transparencia.", "fuente": "Cesar Baez" },
+      { "ref": "Art. 38, fr. IV", "resumen": "El organismo operador formula y mantiene actualizado el padrón de usuarios (en el sistema: registro de usuarios).", "fuente": "Cesar Baez" },
+      { "ref": "Art. 38, fr. VII", "resumen": "Cobro de tarifas con vigilancia de la tesorería (en el sistema: cálculo de pagos y adeudos).", "fuente": "Cesar Baez" },
+      { "ref": "Art. 38, fr. XX", "resumen": "Cumplir las obligaciones de transparencia y rendición de cuentas (en el sistema: apoyo a la rendición de cuentas con datos mínimos).", "fuente": "Cesar Baez" },
+      { "ref": "Art. 40", "resumen": "Llevar registros contables y enviar la información a la tesorería en los diez primeros días de cada mes.", "fuente": "Cesar Baez" },
+      { "ref": "Art. 44", "resumen": "Los adeudos tienen el carácter de créditos fiscales: refuerzan la necesidad de conservar y proteger el historial.", "fuente": "Cesar Baez" },
+      { "ref": "Art. 76, fr. I", "resumen": "Quien sea propietario o poseedor de un predio edificado debe contratar el servicio.", "fuente": "Cesar Baez" },
+      { "ref": "Art. 83, fr. IV", "resumen": "El servicio puede suspenderse por falta de pago.", "fuente": "Cesar Baez" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "cff",
+    "nombre": "Código Fiscal de la Federación",
+    "nombre_corto": "Código Fiscal de la Federación",
+    "siglas": "CFF",
+    "tipo": "Código",
+    "ambito": "Federal",
+    "materia": "fiscal",
+    "resumen": "Dos compañeros lo usan por vías distintas: Juan Luis, por la obligación de llevar control volumétrico de hidrocarburos (art. 28), y Axel, por la conservación de la contabilidad y de los comprobantes fiscales de los pagos (arts. 29 y 30).",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Juan Luis Parra", "documento": "Leyes de control de volumen de hidrocarburos de Juan Luis.pdf" },
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Art. 28, fr. I, apdo. B", "resumen": "Pilar normativo del control volumétrico: obliga a quienes fabrican, procesan, almacenan, transportan, distribuyen o enajenan hidrocarburos y petrolíferos a instalar equipos y programas informáticos certificados, generar registros diarios, enviar reportes mensuales a la autoridad y conservar la información y los dictámenes como parte de la contabilidad.", "fuente": "Juan Luis Parra" },
+      { "ref": "Art. 29", "resumen": "Regula los comprobantes fiscales.", "fuente": "Axel López" },
+      { "ref": "Art. 30", "resumen": "Exige conservar la contabilidad y su documentación. Justifica conservar los registros de pagos aunque el titular pida cancelar sus datos. Axel aclara que los plazos exactos deben validarse con el área contable o jurídica y que la ubicación (Título Segundo) debe confirmarse en el texto oficial.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "rmf",
+    "nombre": "Resolución Miscelánea Fiscal 2026, Anexos 21, 22 y 23",
+    "nombre_corto": "RMF 2026 (Anexos 21, 22 y 23)",
+    "siglas": "RMF 2026",
+    "tipo": "Resolución fiscal",
+    "ambito": "Federal",
+    "materia": "fiscal",
+    "resumen": "Concreta el control volumétrico: el Anexo 21 fija las especificaciones de equipos y programas informáticos, el 22 la verificación por terceros y el 23 los dictámenes de laboratorio. Según Juan Luis, en 2026 solo se renumeran los Anexos 30, 31 y 32 de la RMF 2025, sin crear controles nuevos.",
+    "vigencia": "Vigencia RMF 2025-2026 (según Juan Luis Parra).",
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Juan Luis Parra", "documento": "Leyes de control de volumen de hidrocarburos de Juan Luis.pdf" }
+    ],
+    "articulos": [
+      { "ref": "Anexo 21", "resumen": "Antes Anexo 30. Sensores y medidores automáticos de flujo; programas que procesan registros de volumen en tiempo real, generan reportes diarios y mensuales y prohíben manipular o eliminar registros históricos; cifrado de datos, autenticación de usuarios y firmas electrónicas.", "fuente": "Juan Luis Parra" },
+      { "ref": "Anexo 22", "resumen": "Antes Anexo 31. Verificación de la integridad y seguridad de equipos y programas, ejecutada por terceros autorizados por el SAT.", "fuente": "Juan Luis Parra" },
+      { "ref": "Anexo 23", "resumen": "Antes Anexo 32. Dictámenes de laboratorio: caracterización química y física del producto (poder calorífico del gas natural, octanaje de gasolinas).", "fuente": "Juan Luis Parra" }
+    ],
+    "nota_sitio": "No es una ley en sentido estricto, sino una resolución administrativa del SAT; se incluye porque el compañero la analiza como parte de su marco legal."
+  },
+  {
+    "id": "lsh",
+    "nombre": "Ley del Sector Hidrocarburos",
+    "nombre_corto": "Ley del Sector Hidrocarburos",
+    "siglas": "LSH",
+    "tipo": "Ley federal",
+    "ambito": "Federal",
+    "materia": "energia",
+    "resumen": "Establece la soberanía y el control estricto de la nación sobre los recursos energéticos. Según Juan Luis, fundamenta la obligatoriedad del monitoreo volumétrico.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Juan Luis Parra", "documento": "Leyes de control de volumen de hidrocarburos de Juan Luis.pdf" }
+    ],
+    "articulos": [
+      { "ref": "Arts. 1, 3 y 5", "resumen": "Control y vigilancia de la nación sobre los hidrocarburos; base legal del registro de entradas y salidas.", "fuente": "Juan Luis Parra" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "lfra",
+    "nombre": "Ley Federal de Responsabilidad Ambiental",
+    "nombre_corto": "Responsabilidad Ambiental",
+    "siglas": "LFRA",
+    "tipo": "Ley federal",
+    "ambito": "Federal",
+    "materia": "energia",
+    "resumen": "Impone obligaciones de reparación y compensación ante cualquier daño ecológico. Juan Luis la vincula con el monitoreo volumétrico como herramienta para prevenir incidentes.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Juan Luis Parra", "documento": "Leyes de control de volumen de hidrocarburos de Juan Luis.pdf" }
+    ],
+    "articulos": [
+      { "ref": "Art. 10", "resumen": "Obligación de reparación y compensación de daños ecológicos; responsabilidad civil ante derrames o fugas.", "fuente": "Juan Luis Parra" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "nom006",
+    "nombre": "NOM-006-ASEA-2017",
+    "nombre_corto": "NOM-006-ASEA-2017",
+    "siglas": "NOM-006",
+    "tipo": "Norma Oficial Mexicana",
+    "ambito": "Federal",
+    "materia": "energia",
+    "resumen": "Marco técnico obligatorio para el diseño, construcción, pre-arranque, operación y mantenimiento de instalaciones terrestres de almacenamiento de hidrocarburos, para que la infraestructura mantenga su integridad mecánica y prevenga incidentes críticos.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Juan Luis Parra", "documento": "Leyes de control de volumen de hidrocarburos de Juan Luis.pdf" }
+    ],
+    "articulos": [
+      { "ref": "Sin numeral citado", "resumen": "El monitoreo riguroso de existencias y flujos (recepción y entrega) permite detectar anomalías prematuras, como fugas o pérdidas de presión; vincula la precisión fiscal con la protección ambiental y operativa.", "fuente": "Juan Luis Parra" }
+    ],
+    "nota_sitio": "Es una norma técnica, no una ley."
+  },
+  {
+    "id": "lfpdppp",
+    "nombre": "Ley Federal de Protección de Datos Personales en Posesión de los Particulares",
+    "nombre_corto": "Protección de Datos (Particulares)",
+    "siglas": "LFPDPPP",
+    "tipo": "Ley federal",
+    "ambito": "Federal",
+    "materia": "datos",
+    "resumen": "Regula el tratamiento de datos personales por parte de particulares: principios, derechos ARCO, aviso de privacidad y medidas de seguridad. Es el eje del expediente de Axel y Esmeralda la señala como la ley que pone los límites al uso de datos en SIDNEC.",
+    "vigencia": "Texto vigente con última reforma publicada en el DOF el 14 de noviembre de 2025 (según Axel López).",
+    "enlace_oficial": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" },
+      { "alumno": "Esmeralda Luna", "documento": "SIDNEC_LunaRomanoEsmeralda_LeyesProyecto_20261115_v1.1.docx" }
+    ],
+    "articulos": [
+      { "ref": "Art. 2", "resumen": "Define a la persona encargada y sirve para distinguir un encargo de una transferencia.", "fuente": "Axel López" },
+      { "ref": "Art. 3", "resumen": "Los principios y derechos tienen como límite la seguridad nacional, el orden, la seguridad y la salud públicos y los derechos de terceros.", "fuente": "Axel López" },
+      { "ref": "Art. 4", "resumen": "Señala como supletorios el Código Nacional de Procedimientos Civiles y Familiares y la Ley Federal de Procedimiento Administrativo.", "fuente": "Axel López" },
+      { "ref": "Sin artículo citado", "resumen": "SIDNEC debe cumplirla además de la LFT: aviso de privacidad, uso de los datos solo para el diagnóstico, medidas de seguridad y atención de solicitudes ARCO. La LFT justifica el uso de los datos y la LFPDPPP pone los límites.", "fuente": "Esmeralda Luna" }
+    ],
+    "nota_sitio": "Esta ley rige a los particulares (empresas, despachos). Las autoridades públicas, como una Presidencia o la UAT, se rigen por otra ley de datos que ningún compañero analizó; por eso las conexiones con proyectos públicos van marcadas para revisión."
+  },
+  {
+    "id": "lfpc",
+    "nombre": "Ley Federal de Protección al Consumidor",
+    "nombre_corto": "Protección al Consumidor",
+    "siglas": "LFPC",
+    "tipo": "Ley federal",
+    "ambito": "Federal",
+    "materia": "consumo",
+    "resumen": "Protege al consumidor frente a los proveedores. Tres compañeros analizan su artículo 76 Bis (transacciones por medios electrónicos) y uno el artículo 1: información clara, seguridad, confidencialidad de datos, publicidad veraz y cobros automáticos.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" },
+      { "alumno": "Martín Carmona", "documento": "Análisis del Artículo 76 Bis.pptx" },
+      { "alumno": "Fátima Cortés", "documento": "Presentación sobre protección jurídica del cliente.pptx" }
+    ],
+    "articulos": [
+      { "ref": "Art. 1", "resumen": "Derechos fundamentales del consumidor: seguridad jurídica, información clara, equidad contractual y reparación de daños. El cliente tiene derecho a recibir exactamente el servicio contratado.", "fuente": "Fátima Cortés" },
+      { "ref": "Art. 76 Bis", "resumen": "Capítulo VIII Bis (transacciones por medios electrónicos): obliga a usar de forma confidencial la información del consumidor y a no difundirla ni transmitirla a proveedores ajenos a la transacción sin autorización, salvo requerimiento de autoridad.", "fuente": "Axel López" },
+      { "ref": "Art. 76 Bis", "resumen": "Protección en servicios digitales: informar las condiciones del servicio y los costos, implementar medidas de seguridad, proporcionar medios de contacto y evitar la publicidad engañosa.", "fuente": "Fátima Cortés" },
+      { "ref": "Art. 76 Bis, fracs. I a III", "resumen": "Seguridad y confianza: confidencialidad de datos, seguridad técnica y canales de contacto para reclamaciones.", "fuente": "Martín Carmona" },
+      { "ref": "Art. 76 Bis, fracs. IV y V", "resumen": "Información transparente: la publicidad engañosa está prohibida y el consumidor tiene derecho a conocer costos, términos y condiciones.", "fuente": "Martín Carmona" },
+      { "ref": "Art. 76 Bis, fracs. VI y VII", "resumen": "Respeto al consumidor: libertad de elección, protección contra prácticas abusivas y protección de grupos vulnerables.", "fuente": "Martín Carmona" },
+      { "ref": "Art. 76 Bis, fr. VIII", "resumen": "Suscripciones y cobros automáticos: consentimiento expreso, información clara sobre renovaciones y derechos del usuario ante cobros recurrentes.", "fuente": "Martín Carmona" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "lft",
+    "nombre": "Ley Federal del Trabajo",
+    "nombre_corto": "Ley Federal del Trabajo",
+    "siglas": "LFT",
+    "tipo": "Ley federal",
+    "ambito": "Federal",
+    "materia": "trabajo",
+    "resumen": "Obliga a los patrones a capacitar a todos sus trabajadores mediante planes y programas que cubran todos los puestos y niveles, se basen en competencias laborales y se conserven a disposición de la STPS. Su incumplimiento se sanciona con multas en UMA.",
+    "vigencia": "Capítulo III Bis con última reforma publicada en el DOF el 14 de mayo de 2026, según la página que consultó Esmeralda (por confirmar en la versión oficial).",
+    "enlace_oficial": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Esmeralda Luna", "documento": "SIDNEC_LunaRomanoEsmeralda_LeyesProyecto_20261115_v1.1.docx" }
+    ],
+    "articulos": [
+      { "ref": "Arts. 3 y 132, fr. XV", "resumen": "Es de interés social promover y vigilar la capacitación y el adiestramiento; entre las obligaciones del patrón está proporcionarlos en los términos del Capítulo III Bis.", "fuente": "Esmeralda Luna" },
+      { "ref": "Arts. 153-A, 153-B y 153-C", "resumen": "Derecho de los trabajadores a la capacitación, según planes acordados con el sindicato o la mayoría de los trabajadores; capacitación para quienes ingresan o aspiran a vacantes; adiestramiento para actualizar conocimientos, dar a conocer riesgos y aumentar la productividad y la competencia laboral.", "fuente": "Esmeralda Luna" },
+      { "ref": "Art. 153-D", "resumen": "Los trabajadores deben asistir, cumplir los programas y presentar los exámenes de evaluación de conocimientos y de competencia laboral que se les pidan.", "fuente": "Esmeralda Luna" },
+      { "ref": "Arts. 153-E y 153-F", "resumen": "En empresas con más de 50 trabajadores debe formarse una Comisión Mixta de Capacitación, Adiestramiento y Productividad que vigila y mejora los programas.", "fuente": "Esmeralda Luna" },
+      { "ref": "Art. 153-H", "resumen": "Los planes y programas se elaboran dentro de los 60 días hábiles siguientes al inicio de operaciones, cubren periodos de máximo dos años, comprenden todos los puestos y niveles y se basan en normas técnicas de competencia laboral cuando existan.", "fuente": "Esmeralda Luna" },
+      { "ref": "Arts. 153-F Bis y 153-S", "resumen": "Los patrones deben conservar los planes y programas a disposición de la STPS y de la Secretaría de Economía; si no lo hacen o no se llevan a la práctica, pueden ser sancionados.", "fuente": "Esmeralda Luna" },
+      { "ref": "Arts. 153-T, 153-U y 153-V", "resumen": "Constancias de competencias o habilidades laborales: quien aprueba tiene derecho a ella; quien rechaza capacitarse debe demostrar que ya tiene el conocimiento con un certificado o un examen de suficiencia.", "fuente": "Esmeralda Luna" },
+      { "ref": "Art. 153-X", "resumen": "Trabajadores y patrones pueden acudir a los tribunales por las obligaciones de capacitación de este capítulo.", "fuente": "Esmeralda Luna" },
+      { "ref": "Art. 994, fr. IV", "resumen": "Multa de 250 a 5,000 UMA al patrón que no cumpla con la obligación de capacitación y adiestramiento (con la UMA 2026 que cita Esmeralda, de 117.31 pesos: de $29,327.50 a $586,550 aproximadamente).", "fuente": "Esmeralda Luna" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "ccom",
+    "nombre": "Código de Comercio (Del Comercio Electrónico)",
+    "nombre_corto": "Código de Comercio",
+    "siglas": "C. Comercio",
+    "tipo": "Código",
+    "ambito": "Federal",
+    "materia": "consumo",
+    "resumen": "Regula el comercio electrónico y los mensajes de datos. Axel lo usa como soporte de la evidencia electrónica del consentimiento y de la información al consumidor por medios electrónicos.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Libro Segundo, Título Segundo", "resumen": "Del Comercio Electrónico: Axel cita el título completo, sin artículos específicos.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "cpf",
+    "nombre": "Código Penal Federal",
+    "nombre_corto": "Código Penal Federal",
+    "siglas": "CPF",
+    "tipo": "Código",
+    "ambito": "Federal",
+    "materia": "civil",
+    "resumen": "Axel lo integra por si un acceso no autorizado a los sistemas de GoMOVI llegara a constituir delito, y aclara que debe confirmarse con asesoría jurídica cuál norma aplica a cada hecho.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Arts. 211 bis 1 a 211 bis 7", "resumen": "Libro Segundo, Título Noveno, Capítulo II: tipifica el acceso ilícito a sistemas y equipos de informática.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "ccf",
+    "nombre": "Código Civil Federal",
+    "nombre_corto": "Código Civil Federal",
+    "siglas": "CCF",
+    "tipo": "Código",
+    "ambito": "Federal",
+    "materia": "civil",
+    "resumen": "Fátima lo usa para explicar la responsabilidad del proveedor de un sistema frente a su cliente: los contratos obligan y se rigen por la buena fe, y quien causa daños por negligencia puede estar obligado a repararlos.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Fátima Cortés", "documento": "Presentación sobre protección jurídica del cliente.pptx" }
+    ],
+    "articulos": [
+      { "ref": "Art. 1796", "resumen": "Los contratos obligan a las partes; debe existir lealtad y transparencia, no se pueden ocultar limitaciones importantes y el proveedor debe cumplir expectativas razonables. La buena fe protege al cliente durante toda la relación contractual.", "fuente": "Fátima Cortés" },
+      { "ref": "Art. 1910", "resumen": "Si el desarrollador causa daños por negligencia (pérdida de información, fallas críticas, interrupción de servicios, errores graves de programación) puede existir obligación de reparar el daño causado.", "fuente": "Fátima Cortés" }
+    ],
+    "nota_sitio": "Fátima desarrolla estos artículos para un Sistema de Administración Académica."
+  },
+  {
+    "id": "lfpa",
+    "nombre": "Ley Federal de Procedimiento Administrativo",
+    "nombre_corto": "Procedimiento Administrativo",
+    "siglas": "LFPA",
+    "tipo": "Ley federal",
+    "ambito": "Federal",
+    "materia": "civil",
+    "resumen": "Rige de forma supletoria a la LFPDPPP en los procedimientos de verificación y sirve de base para conservar el expediente de una reclamación.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Sin artículo citado", "resumen": "Supletoria de la LFPDPPP según el artículo 4 de esa ley; Axel no señala un artículo específico.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "cnpcf",
+    "nombre": "Código Nacional de Procedimientos Civiles y Familiares",
+    "nombre_corto": "Proc. Civiles y Familiares",
+    "siglas": "CNPCF",
+    "tipo": "Código",
+    "ambito": "Federal",
+    "materia": "civil",
+    "resumen": "Complementa a la LFPDPPP en lo que esta no regula y, junto con la Ley Federal de Procedimiento Administrativo, sirve de base para conservar el expediente de una reclamación.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Sin artículo citado", "resumen": "Supletorio de la LFPDPPP según el artículo 4 de esa ley; el expediente de Axel no señala libro ni artículo.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": null
+  },
+  {
+    "id": "reglamento",
+    "nombre": "Reglamento de la LFPDPPP (DOF, 2011)",
+    "nombre_corto": "Reglamento de la LFPDPPP",
+    "siglas": "Reglamento",
+    "tipo": "Reglamento",
+    "ambito": "Federal",
+    "materia": "datos",
+    "resumen": "Su capítulo de medidas de seguridad respalda los controles técnicos y administrativos de GoMOVI y el de autorregulación respalda el código interno de privacidad propuesto. Axel pide confirmar qué partes siguen vigentes con la nueva ley.",
+    "vigencia": "Vigencia por confirmar con la nueva Ley (según Axel López).",
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Arts. 57 a 66", "resumen": "Medidas de seguridad.", "fuente": "Axel López" },
+      { "ref": "Arts. 79 a 86", "resumen": "Autorregulación.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": "Vigencia por confirmar, según el propio expediente de Axel."
+  },
+  {
+    "id": "lineamientos",
+    "nombre": "Lineamientos del Aviso de Privacidad (DOF, 2013)",
+    "nombre_corto": "Lineamientos del Aviso de Privacidad",
+    "siglas": "Lin. Aviso Priv.",
+    "tipo": "Lineamientos",
+    "ambito": "Federal",
+    "materia": "datos",
+    "resumen": "Se integran como guía del contenido que debe tener el aviso de privacidad. Axel pide confirmar cuáles siguen vigentes con la nueva ley.",
+    "vigencia": "Vigencia por confirmar con la nueva Ley (según Axel López).",
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Sin artículo citado", "resumen": "Guía de contenido del aviso de privacidad; no se citan artículos.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": "Vigencia por confirmar, según el propio expediente de Axel."
+  },
+  {
+    "id": "nom151",
+    "nombre": "NOM-151-SCFI-2016",
+    "nombre_corto": "NOM-151-SCFI-2016",
+    "siglas": "NOM-151",
+    "tipo": "Norma Oficial Mexicana",
+    "ambito": "Federal",
+    "materia": "consumo",
+    "resumen": "Norma Oficial Mexicana sobre la conservación de mensajes de datos. Respalda la conservación de la evidencia electrónica, como los mensajes relacionados con el consentimiento y los pagos.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "analizada",
+    "analizada_por": [
+      { "alumno": "Axel López", "documento": "LopezCornejoAxelLazaroNormativaAdicionalGOMOVI_20261116_v1.0.docx" }
+    ],
+    "articulos": [
+      { "ref": "Sin numeral citado", "resumen": "Axel no cita numerales específicos.", "fuente": "Axel López" }
+    ],
+    "nota_sitio": "Es una norma técnica, no una ley."
+  },
+  {
+    "id": "lfda",
+    "nombre": "Ley Federal del Derecho de Autor",
+    "nombre_corto": "Derecho de Autor",
+    "siglas": "LFDA",
+    "tipo": "Ley federal",
+    "ambito": "Federal",
+    "materia": "propiedad",
+    "resumen": "Aparece nombrada en el diagrama del marco jurídico de la presentación de Fátima, sin artículos ni explicación. Se incluye en el catálogo como ley mencionada, sin conexiones con proyectos.",
+    "vigencia": null,
+    "enlace_oficial": null,
+    "estado_analisis": "mencionada",
+    "analizada_por": [
+      { "alumno": "Fátima Cortés (solo mencionada)", "documento": "Presentación sobre protección jurídica del cliente.pptx" }
+    ],
+    "articulos": [],
+    "nota_sitio": "Ningún compañero la analiza; por eso no se le asignan conexiones."
+  }
+]

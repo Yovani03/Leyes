@@ -1,0 +1,230 @@
+[
+  {
+    "id": "c01", "ley": "lgb", "proyecto": "swigb", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Rafael Arenas",
+    "porque": "Es la ley más directa para el proyecto. Aunque el sistema es digital, el servicio que soporta es el de una biblioteca pública comunitaria: la ley fundamenta que la Presidencia mantenga y organice una biblioteca abierta, gratuita y sin discriminación, y justifica llevar un control ordenado del acervo y de los préstamos.",
+    "articulos_citados": ["Sin artículo citado"], "nota_revision": null
+  },
+  {
+    "id": "c02", "ley": "lgcdc", "proyecto": "swigb", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Rafael Arenas",
+    "porque": "La biblioteca de la Presidencia es un servicio cultural comunitario. La ley respalda que se ofrezca de manera abierta, gratuita y sin discriminación, y justifica las acciones que facilitan el acceso de niños, jóvenes y adultos a los libros y al conocimiento.",
+    "articulos_citados": ["Sin artículo citado"], "nota_revision": null
+  },
+  {
+    "id": "c03", "ley": "lgdnna", "proyecto": "swigb", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Rafael Arenas",
+    "porque": "Entre los lectores puede haber menores. Cualquier servicio que se les brinde (préstamo de libros, registro de su nombre) debe considerar el interés superior de la niñez, y sus datos deben tratarse con especial cuidado.",
+    "articulos_citados": ["Sin artículo citado"], "nota_revision": null
+  },
+  {
+    "id": "c04", "ley": "cpeum", "proyecto": "swigb", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Rafael Arenas",
+    "porque": "El artículo 4º es la base constitucional del derecho a la cultura, de la que emanan la Ley General de Cultura y la Ley General de Bibliotecas que sustentan el proyecto.",
+    "articulos_citados": ["Art. 4º"], "nota_revision": null
+  },
+  {
+    "id": "c05", "ley": "lge", "proyecto": "swigb", "relevancia": "media", "revisar": false, "tipo": "documentada", "fuente": "Rafael Arenas",
+    "porque": "Reconoce el papel de las bibliotecas públicas como apoyo a la educación y al acceso al conocimiento, lo que refuerza la función social de la biblioteca de la Presidencia. Está más orientada al sistema educativo formal, por eso su relevancia es media.",
+    "articulos_citados": ["Sin artículo citado"], "nota_revision": null
+  },
+  {
+    "id": "c06", "ley": "lfpdppp", "proyecto": "swigb", "relevancia": "media", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Axel López",
+    "porque": "El sistema registra nombres y préstamos de los lectores, y Rafael señala que los datos de menores deben tratarse con especial cuidado. La LFPDPPP regula el tratamiento de datos personales; los artículos citados son los que Axel analiza y su encaje con la biblioteca no está verificado.",
+    "articulos_citados": ["Art. 2", "Art. 3", "Art. 4"],
+    "nota_revision": "La LFPDPPP rige a particulares; una biblioteca de Presidencia es una autoridad y podría regirse por otra ley de datos que ningún compañero analizó."
+  },
+  {
+    "id": "c07", "ley": "lgdt", "proyecto": "swigb", "relevancia": "baja", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Yaneli Cervantes",
+    "porque": "La ley incluye a los municipios como sujetos obligados a usar las TIC en sus servicios. El sistema bibliotecario es una herramienta informática de una Presidencia de Comunidad.",
+    "articulos_citados": ["Art. 4"],
+    "nota_revision": "Falta confirmar que una Presidencia de Comunidad queda dentro de lo que la ley llama «municipios»."
+  },
+  {
+    "id": "c08", "ley": "lga", "proyecto": "sgac", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Yaneli Cervantes",
+    "porque": "La Secretaría del Ayuntamiento realiza trámites, recibe solicitudes y genera documentos oficiales. El sistema almacena registros de ciudadanos y de sus solicitudes y facilita cartas y constancias; esa información puede formar parte de los archivos institucionales y debe manejarse con las reglas archivísticas, aunque la aplicación sea local.",
+    "articulos_citados": ["Art. 1", "Art. 2", "Art. 10", "Art. 11", "Art. 12"], "nota_revision": null
+  },
+  {
+    "id": "c09", "ley": "lgdt", "proyecto": "sgac", "relevancia": "media", "revisar": false, "tipo": "documentada", "fuente": "Yaneli Cervantes",
+    "porque": "Aplica como marco relacionado con el uso de tecnología en el ámbito municipal: la ley incluye al Estado y sus municipios, y el proyecto desarrolla una herramienta informática con base de datos y equipos de cómputo para apoyar a la Secretaría del Ayuntamiento. Sus principios (privacidad desde el diseño, confidencialidad) orientan el diseño y la seguridad del sistema.",
+    "articulos_citados": ["Art. 1", "Art. 2", "Art. 3", "Art. 4", "Art. 11", "Art. 14", "Art. 15"], "nota_revision": null
+  },
+  {
+    "id": "c10", "ley": "cpeum", "proyecto": "sgac", "relevancia": "media", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Axel López",
+    "porque": "El sistema guarda registros de ciudadanos y de sus solicitudes. El artículo 16 reconoce la protección de los datos personales y los derechos ARCO como derechos fundamentales.",
+    "articulos_citados": ["Art. 16, párr. 2"],
+    "nota_revision": "Axel lo analiza para una plataforma privada; aquí se propone por analogía con el manejo de datos de ciudadanos."
+  },
+  {
+    "id": "c11", "ley": "lat", "proyecto": "agua", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Cesar Baez",
+    "porque": "Regula directamente el servicio que el sistema administra. Le da su vocabulario (padrón de usuarios, toma, tarifa, cobro) y sus funciones: mantener el padrón, cobrar las tarifas con vigilancia de la tesorería, llevar registros contables y apoyar la rendición de cuentas. Los adeudos son créditos fiscales, por lo que el historial debe conservarse y protegerse.",
+    "articulos_citados": ["Art. 3, fr. XLI", "Art. 4", "Arts. 7 y 72", "Art. 8", "Art. 38, fr. IV", "Art. 38, fr. VII", "Art. 38, fr. XX", "Art. 40", "Art. 44", "Art. 76, fr. I", "Art. 83, fr. IV"], "nota_revision": null
+  },
+  {
+    "id": "c12", "ley": "lga", "proyecto": "agua", "relevancia": "media", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Yaneli Cervantes",
+    "porque": "Cesar señala que los adeudos son créditos fiscales y que por eso hay que conservar y proteger el historial de pagos. El padrón y el historial son documentos que la Presidencia genera en el ejercicio de sus funciones.",
+    "articulos_citados": ["Art. 10", "Art. 11", "Art. 12"],
+    "nota_revision": "Cesar no cita la Ley General de Archivos; la conexión se propone por la obligación de conservar y proteger el historial."
+  },
+  {
+    "id": "c13", "ley": "lgdt", "proyecto": "agua", "relevancia": "baja", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Yaneli Cervantes",
+    "porque": "El sistema es una herramienta informática de una Presidencia de Comunidad y la ley obliga a los municipios a usar las TIC dentro de sus competencias.",
+    "articulos_citados": ["Art. 4"],
+    "nota_revision": "Falta confirmar que una Presidencia de Comunidad queda dentro de lo que la ley llama «municipios»."
+  },
+  {
+    "id": "c14", "ley": "cpeum", "proyecto": "agua", "relevancia": "baja", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Axel López",
+    "porque": "El padrón almacena datos personales de 319 usuarios (nombre, domicilio de la toma, adeudos). El artículo 16 reconoce la protección de datos personales como derecho fundamental.",
+    "articulos_citados": ["Art. 16, párr. 2"],
+    "nota_revision": "Cesar apoya la rendición de cuentas «con datos mínimos», pero no analiza la protección de datos."
+  },
+  {
+    "id": "c15", "ley": "cff", "proyecto": "hidrocarburos", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Juan Luis Parra",
+    "porque": "Es el pilar normativo del control volumétrico: obliga a quienes fabrican, procesan, almacenan, transportan, distribuyen o enajenan hidrocarburos a contar con equipos y programas certificados, generar registros diarios, enviar reportes mensuales a la autoridad y conservar la información y los dictámenes. El sistema de Juan Luis genera justo esos reportes mensuales.",
+    "articulos_citados": ["Art. 28, fr. I, apdo. B"], "nota_revision": null
+  },
+  {
+    "id": "c16", "ley": "rmf", "proyecto": "hidrocarburos", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Juan Luis Parra",
+    "porque": "Los Anexos 21, 22 y 23 concretan cómo debe ser el software y cómo se verifica: registros en tiempo real, reportes diarios y mensuales, prohibición de manipular o eliminar registros históricos, cifrado, autenticación y firmas electrónicas, verificación por terceros autorizados y dictámenes de laboratorio.",
+    "articulos_citados": ["Anexo 21", "Anexo 22", "Anexo 23"], "nota_revision": null
+  },
+  {
+    "id": "c17", "ley": "lsh", "proyecto": "hidrocarburos", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Juan Luis Parra",
+    "porque": "Establece el control y la vigilancia de la nación sobre los hidrocarburos y fundamenta la obligatoriedad del monitoreo volumétrico; es la base legal del registro de entradas y salidas.",
+    "articulos_citados": ["Arts. 1, 3 y 5"], "nota_revision": null
+  },
+  {
+    "id": "c18", "ley": "lfra", "proyecto": "hidrocarburos", "relevancia": "media", "revisar": false, "tipo": "documentada", "fuente": "Juan Luis Parra",
+    "porque": "El control volumétrico no es solo un registro contable: sirve para prevenir incidentes. Si hay un derrame o fuga, la ley obliga a reparar y compensar el daño, lo que genera responsabilidad civil.",
+    "articulos_citados": ["Art. 10"], "nota_revision": null
+  },
+  {
+    "id": "c19", "ley": "nom006", "proyecto": "hidrocarburos", "relevancia": "media", "revisar": false, "tipo": "documentada", "fuente": "Juan Luis Parra",
+    "porque": "Existe una relación directa entre el control volumétrico y la seguridad industrial: el monitoreo de existencias y flujos permite detectar a tiempo fugas o pérdidas de presión en las instalaciones de almacenamiento.",
+    "articulos_citados": ["Sin numeral citado"], "nota_revision": null
+  },
+  {
+    "id": "c20", "ley": "ccf", "proyecto": "hidrocarburos", "relevancia": "baja", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Fátima Cortés",
+    "porque": "El sistema se entrega a clientes que dependen de él para cumplir con el SAT. Los artículos que Fátima analiza (buena fe en el contrato y reparación de daños por negligencia) describen la responsabilidad del proveedor de software si los reportes salen con errores graves.",
+    "articulos_citados": ["Art. 1796", "Art. 1910"],
+    "nota_revision": "Fátima los desarrolla para un sistema académico; aquí se propone por analogía con la relación proveedor-cliente."
+  },
+  {
+    "id": "c21", "ley": "cpeum", "proyecto": "gomovi", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "El artículo 16 es la base de la protección de datos personales y de los derechos ARCO sobre la que descansa todo el análisis de GoMOVI.",
+    "articulos_citados": ["Art. 16, párr. 2"], "nota_revision": null
+  },
+  {
+    "id": "c22", "ley": "lfpdppp", "proyecto": "gomovi", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Es la ley que revisa el expediente: GoMOVI trata datos personales de usuarios en reservas y pagos. Sus artículos sirven para distinguir un encargo de una transferencia, entender los límites de los principios y derechos y saber qué normas son supletorias.",
+    "articulos_citados": ["Art. 2", "Art. 3", "Art. 4"], "nota_revision": null
+  },
+  {
+    "id": "c23", "ley": "lfpc", "proyecto": "gomovi", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "GoMOVI realiza reservas y pagos en línea, es decir, transacciones por medios electrónicos. El artículo 76 Bis obliga a usar de forma confidencial la información del consumidor y a no transmitirla a proveedores ajenos a la transacción sin su autorización.",
+    "articulos_citados": ["Art. 76 Bis"], "nota_revision": null
+  },
+  {
+    "id": "c24", "ley": "lgdnna", "proyecto": "gomovi", "relevancia": "media", "revisar": true, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Puede haber pasajeros menores de edad; la ley reconoce su derecho a la intimidad y a la protección de sus datos personales.",
+    "articulos_citados": ["Art. 76"],
+    "nota_revision": "Axel indica que el número de artículo y su ubicación deben confirmarse en el texto oficial."
+  },
+  {
+    "id": "c25", "ley": "ccom", "proyecto": "gomovi", "relevancia": "media", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Regula el comercio electrónico y los mensajes de datos; sirve de soporte para la evidencia electrónica del consentimiento y para la información al consumidor y el consentimiento por medios electrónicos.",
+    "articulos_citados": ["Libro Segundo, Título Segundo"], "nota_revision": null
+  },
+  {
+    "id": "c26", "ley": "cff", "proyecto": "gomovi", "relevancia": "media", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Justifica conservar los registros de pagos aunque el titular solicite cancelar sus datos, por lo que funciona como límite razonable a ese derecho.",
+    "articulos_citados": ["Art. 29", "Art. 30"],
+    "nota_revision": null
+  },
+  {
+    "id": "c27", "ley": "cpf", "proyecto": "gomovi", "relevancia": "media", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Tipifica el acceso ilícito a sistemas y equipos de informática; se integra por si un acceso no autorizado a los sistemas de GoMOVI llegara a constituir un delito.",
+    "articulos_citados": ["Arts. 211 bis 1 a 211 bis 7"], "nota_revision": null
+  },
+  {
+    "id": "c28", "ley": "reglamento", "proyecto": "gomovi", "relevancia": "media", "revisar": true, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Su capítulo de medidas de seguridad respalda los controles técnicos y administrativos de GoMOVI y el de autorregulación respalda el código interno de privacidad propuesto.",
+    "articulos_citados": ["Arts. 57 a 66", "Arts. 79 a 86"],
+    "nota_revision": "Axel pide confirmar qué partes del Reglamento siguen vigentes con la nueva Ley."
+  },
+  {
+    "id": "c29", "ley": "lineamientos", "proyecto": "gomovi", "relevancia": "baja", "revisar": true, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Se integran como guía del contenido que debe tener el aviso de privacidad de la plataforma.",
+    "articulos_citados": ["Sin artículo citado"],
+    "nota_revision": "Axel pide confirmar cuáles Lineamientos siguen vigentes con la nueva Ley."
+  },
+  {
+    "id": "c30", "ley": "nom151", "proyecto": "gomovi", "relevancia": "baja", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Respalda la conservación de la evidencia electrónica, como los mensajes de datos relacionados con el consentimiento y los pagos.",
+    "articulos_citados": ["Sin numeral citado"], "nota_revision": null
+  },
+  {
+    "id": "c31", "ley": "lfpa", "proyecto": "gomovi", "relevancia": "baja", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Rige de forma supletoria los procedimientos de verificación de la LFPDPPP y sirve de base para conservar el expediente de una reclamación.",
+    "articulos_citados": ["Sin artículo citado"], "nota_revision": null
+  },
+  {
+    "id": "c32", "ley": "cnpcf", "proyecto": "gomovi", "relevancia": "baja", "revisar": false, "tipo": "documentada", "fuente": "Axel López",
+    "porque": "Complementa a la LFPDPPP en lo que esta no regula y, junto con la Ley Federal de Procedimiento Administrativo, sirve de base para conservar el expediente de una reclamación.",
+    "articulos_citados": ["Sin artículo citado"], "nota_revision": null
+  },
+  {
+    "id": "c33", "ley": "ccf", "proyecto": "gomovi", "relevancia": "baja", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Fátima Cortés",
+    "porque": "GoMOVI contrata con sus usuarios reservas y pagos en línea. Los artículos que Fátima analiza (buena fe en el contrato y reparación de daños por negligencia) describen las obligaciones de quien presta un servicio digital.",
+    "articulos_citados": ["Art. 1796", "Art. 1910"],
+    "nota_revision": "Fátima los desarrolla para un sistema académico; aquí se propone por analogía."
+  },
+  {
+    "id": "c34", "ley": "lft", "proyecto": "sidnec", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Esmeralda Luna",
+    "porque": "Es la ley no informática que más se relaciona con SIDNEC. Obliga a las empresas a capacitar a todos sus trabajadores con planes que cubran todos los puestos y niveles, se basen en competencias y se conserven a disposición de la STPS. SIDNEC hace el diagnóstico de necesidades de capacitación, el paso previo a esos planes. La obligación es de la empresa, no del sistema.",
+    "articulos_citados": ["Arts. 3 y 132, fr. XV", "Arts. 153-A, 153-B y 153-C", "Art. 153-D", "Arts. 153-E y 153-F", "Art. 153-H", "Arts. 153-F Bis y 153-S", "Arts. 153-T, 153-U y 153-V", "Art. 153-X", "Art. 994, fr. IV"], "nota_revision": null
+  },
+  {
+    "id": "c35", "ley": "lfpdppp", "proyecto": "sidnec", "relevancia": "alta", "revisar": false, "tipo": "documentada", "fuente": "Esmeralda Luna",
+    "porque": "La LFT no regula la protección de datos. Esmeralda indica que SIDNEC debe cumplir también la LFPDPPP: aviso de privacidad, uso de los datos solo para el diagnóstico, medidas de seguridad y atención de solicitudes ARCO.",
+    "articulos_citados": ["Sin artículo citado"], "nota_revision": null
+  },
+  {
+    "id": "c36", "ley": "cpeum", "proyecto": "sidnec", "relevancia": "media", "revisar": false, "tipo": "documentada", "fuente": "Esmeralda Luna",
+    "porque": "El artículo 123 reconoce que los patrones deben dar capacitación a sus trabajadores. Por eso el diagnóstico de necesidades no es solo una buena práctica de recursos humanos: es el primer paso para cumplir la ley.",
+    "articulos_citados": ["Art. 123, apdo. A, fr. XIII"], "nota_revision": null
+  },
+  {
+    "id": "c37", "ley": "ccf", "proyecto": "sidnec", "relevancia": "baja", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Fátima Cortés",
+    "porque": "Quantum entrega SIDNEC a empresas clientes. Los artículos que Fátima analiza (buena fe en el contrato y reparación de daños por negligencia) describen la responsabilidad del proveedor si el sistema falla o pierde información.",
+    "articulos_citados": ["Art. 1796", "Art. 1910"],
+    "nota_revision": "Fátima los desarrolla para un sistema académico; aquí se propone por analogía. Esmeralda destaca que un sistema que no documente bien puede dejar a la empresa sin pruebas."
+  },
+  {
+    "id": "c38", "ley": "lfpc", "proyecto": "despacho", "relevancia": "media", "revisar": true, "tipo": "documentada", "fuente": "Fátima Cortés",
+    "porque": "El sitio ofrece servicios al público por internet. Los artículos que Fátima analiza piden informar con claridad las condiciones y los costos del servicio, implementar medidas de seguridad, dar medios de contacto y evitar la publicidad engañosa.",
+    "articulos_citados": ["Art. 1", "Art. 76 Bis"],
+    "nota_revision": "La presentación de Fátima desarrolla estos artículos para un sistema académico; ella indica que la pensó para el despacho."
+  },
+  {
+    "id": "c39", "ley": "ccf", "proyecto": "despacho", "relevancia": "media", "revisar": true, "tipo": "documentada", "fuente": "Fátima Cortés",
+    "porque": "Quien contrata una asesoría contrata un servicio: el contrato obliga a las partes con lealtad y transparencia, sin ocultar limitaciones, y si hay negligencia que cause daños puede existir obligación de repararlos.",
+    "articulos_citados": ["Art. 1796", "Art. 1910"],
+    "nota_revision": "La presentación de Fátima desarrolla estos artículos para un sistema académico; ella indica que la pensó para el despacho."
+  },
+  {
+    "id": "c40", "ley": "lfpdppp", "proyecto": "despacho", "relevancia": "media", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Axel López",
+    "porque": "Las citas y asesorías recogen datos personales de los clientes, que pueden ser sensibles. Un despacho privado es un particular, así que esta ley sí encaja. Los artículos citados son los que Axel analiza.",
+    "articulos_citados": ["Art. 2", "Art. 3", "Art. 4"],
+    "nota_revision": "Los compañeros no analizan el encaje de estos artículos con el despacho."
+  },
+  {
+    "id": "c41", "ley": "lfpc", "proyecto": "uat", "relevancia": "media", "revisar": true, "tipo": "documentada", "fuente": "Martín Carmona",
+    "porque": "El artículo 76 Bis protege al consumidor digital: confidencialidad de datos, seguridad técnica, canales de reclamación, información transparente y respeto a grupos vulnerables. Martín lo analiza como tema de su presentación.",
+    "articulos_citados": ["Art. 76 Bis, fracs. I a III", "Art. 76 Bis, fracs. IV y V", "Art. 76 Bis, fracs. VI y VII", "Art. 76 Bis, fr. VIII"],
+    "nota_revision": "La presentación de Martín no menciona su proyecto; falta confirmar que se aplique a una plataforma pública de la UAT (¿hay cobros o suscripciones?)."
+  },
+  {
+    "id": "c42", "ley": "ccf", "proyecto": "uat", "relevancia": "baja", "revisar": true, "tipo": "cruce", "fuente": "Cruce a partir del análisis de Fátima Cortés",
+    "porque": "Fátima analiza la protección jurídica del cliente en un Sistema de Administración Académica: buena fe en el contrato y reparación de daños por negligencia (pérdida de información, interrupción del servicio, errores graves). Es el tema más cercano a una plataforma académica.",
+    "articulos_citados": ["Art. 1796", "Art. 1910"],
+    "nota_revision": "No se conoce con detalle el proyecto de Martín ni su relación contractual con la UAT."
+  }
+]

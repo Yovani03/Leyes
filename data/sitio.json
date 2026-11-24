@@ -1,0 +1,53 @@
+{
+  "titulo_sitio": "Leyes y software",
+  "marca": "Leyes × Software",
+  "institucion": "Universidad Tecnológica de Tlaxcala · Ingeniería en TI e Innovación Digital · 7º B",
+  "portada": {
+    "eyebrow": "Trabajo de la materia · Noviembre 2026",
+    "titulo": "¿Qué leyes gobiernan el software que estamos construyendo?",
+    "subtitulo": "Cada compañero analizó las leyes de su proyecto. Aquí se juntan todas: elige una ley y descubre a qué proyectos aplica y por qué, o elige un proyecto y mira sus obligaciones legales.",
+    "boton_principal": "Entrar al explorador",
+    "boton_secundario": "Ver el mapa de conexiones",
+    "estadisticas": [
+      { "clave": "leyes", "etiqueta": "leyes y normas" },
+      { "clave": "proyectos", "etiqueta": "proyectos" },
+      { "clave": "conexiones", "etiqueta": "conexiones" },
+      { "clave": "revisar", "etiqueta": "por revisar" }
+    ]
+  },
+  "pasos": [
+    { "icono": "libro", "titulo": "Explora las leyes", "texto": "Busca por tema, ámbito o proyecto. Cada ley trae su resumen, los artículos que citan los compañeros y los proyectos a los que aplica.", "ruta": "#/leyes" },
+    { "icono": "proyecto", "titulo": "Mira cada proyecto", "texto": "Elige un proyecto y revisa todas las leyes que le aplican, ordenadas por relevancia y con el porqué de cada una.", "ruta": "#/proyectos" },
+    { "icono": "mapa", "titulo": "Sigue las conexiones", "texto": "En el mapa, toca una ley o un proyecto y se resaltan sus conexiones. Después revisa las conclusiones.", "ruta": "#/mapa" }
+  ],
+  "leyenda_titulo": "Cómo leer las conexiones",
+  "leyenda": [
+    { "clave": "documentada", "titulo": "Documentada", "texto": "El propio compañero dice que esa ley aplica a su proyecto, y cita los artículos." },
+    { "clave": "cruce", "titulo": "Cruce propuesto", "texto": "La ley la analizó otro compañero; se propone que también aplica. Siempre queda marcada para revisión." },
+    { "clave": "revisar", "titulo": "Por revisar", "texto": "Falta confirmar algo: el artículo, la vigencia o si la ley realmente aplica." }
+  ],
+  "relevancias": {
+    "alta": "La ley es central: el proyecto no puede operar o cumplir sin ella.",
+    "media": "La ley aplica de forma importante, pero no es la base del proyecto.",
+    "baja": "La ley aplica de forma complementaria o por analogía."
+  },
+  "avisos_titulo": "Fuentes y límites",
+  "avisos": [
+    "Todo el contenido sale de los análisis que presentaron los compañeros. No se copió texto oficial de las leyes ni se agregaron artículos que ellos no citaran.",
+    "Cuando un compañero no cita número de artículo, se indica «Sin artículo citado».",
+    "Es un trabajo académico y no sustituye la asesoría jurídica."
+  ],
+  "materias": [
+    { "id": "constitucional", "nombre": "Constitución y derechos humanos", "color": "#2a78d6" },
+    { "id": "cultura", "nombre": "Cultura y educación", "color": "#8a6bd1" },
+    { "id": "archivos", "nombre": "Archivos y gobierno digital", "color": "#1b8c9c" },
+    { "id": "agua", "nombre": "Agua potable", "color": "#3a9bd6" },
+    { "id": "fiscal", "nombre": "Fiscal", "color": "#c98a00" },
+    { "id": "energia", "nombre": "Energía y ambiente", "color": "#3f8f3f" },
+    { "id": "datos", "nombre": "Protección de datos", "color": "#c2527a" },
+    { "id": "consumo", "nombre": "Consumo y comercio electrónico", "color": "#d9692f" },
+    { "id": "trabajo", "nombre": "Trabajo", "color": "#6b7cab" },
+    { "id": "civil", "nombre": "Civil, penal y procedimientos", "color": "#8a7a62" },
+    { "id": "propiedad", "nombre": "Propiedad intelectual", "color": "#7a8794" }
+  ]
+}
