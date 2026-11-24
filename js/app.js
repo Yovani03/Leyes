@@ -4,7 +4,8 @@ import { icon } from './icons.js';
 import { esc, $, $$ } from './utils.js';
 import { initTooltips } from './ui.js';
 
-const NAV = [
+// Todas las secciones posibles. «Conclusiones» se activa con "mostrar_conclusiones" en data/sitio.json.
+const NAV_TODAS = [
   { vista: '', href: '#/', texto: 'Inicio', icono: 'casa' },
   { vista: 'leyes', href: '#/leyes', texto: 'Leyes', icono: 'libro' },
   { vista: 'proyectos', href: '#/proyectos', texto: 'Proyectos', icono: 'proyecto' },
@@ -17,8 +18,19 @@ const VISTAS = {
   leyes: () => import('./views/explorer.js'),
   proyectos: () => import('./views/projects.js'),
   mapa: () => import('./views/map.js'),
-  conclusiones: () => import('./views/conclusions.js'),
 };
+let NAV = NAV_TODAS;
+
+// Activa o desactiva «Conclusiones» según el interruptor de los datos.
+function configurarSecciones() {
+  if (store.sitio.mostrar_conclusiones === true) {
+    VISTAS.conclusiones = () => import('./views/conclusions.js');
+    NAV = NAV_TODAS;
+  } else {
+    delete VISTAS.conclusiones;
+    NAV = NAV_TODAS.filter((n) => n.vista !== 'conclusiones');
+  }
+}
 
 const main = document.getElementById('app');
 let actual = { vista: null, mod: null };
@@ -100,6 +112,7 @@ async function iniciar() {
       <p>${local ? 'Estás abriendo el archivo directamente. Los navegadores bloquean la lectura de los JSON así: abre la carpeta con un servidor local, por ejemplo <code>npx serve</code>, la extensión Live Server de VS Code, o <code>python -m http.server</code>.' : esc(e.message)}</p></div>`;
     return;
   }
+  configurarSecciones();
   pintarChrome();
   temaInicial();
   initTooltips();

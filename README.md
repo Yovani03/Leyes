@@ -14,7 +14,7 @@ HTML, CSS y JavaScript puros: sin frameworks, sin dependencias y **sin paso de c
 | Explorador de leyes | `#/leyes` | Tarjetas con buscador y filtros; al tocar una se abre su detalle (`#/leyes/<id>`) |
 | Vista por proyecto | `#/proyectos/<id>` | Todas las leyes que le aplican, con el porqué y los artículos |
 | Mapa de conexiones | `#/mapa` | Leyes a la izquierda, proyectos a la derecha; tocar un nodo resalta sus conexiones |
-| Conclusiones | `#/conclusiones` | Qué leyes aplican a más proyectos y qué proyectos tienen más obligaciones |
+| Conclusiones *(oculta por ahora)* | `#/conclusiones` | Qué leyes aplican a más proyectos y qué proyectos tienen más obligaciones. Se activa con `"mostrar_conclusiones": true` en `data/sitio.json` |
 
 ## Estructura
 

@@ -3,6 +3,7 @@
   "marca": "Leyes × Software",
   "institucion": "Universidad Tecnológica de Tlaxcala · Ingeniería en TI e Innovación Digital · 7º B",
   "mostrar_por_revisar": false,
+  "mostrar_conclusiones": false,
   "portada": {
     "eyebrow": "Trabajo de la materia · Noviembre 2026",
     "titulo": "¿Qué leyes gobiernan el software que estamos construyendo?",
@@ -20,7 +21,7 @@
   "pasos": [
     { "icono": "libro", "titulo": "Explora las leyes", "texto": "Busca por tema, ámbito o proyecto. Cada ley trae su resumen, los artículos que citan los compañeros y los proyectos a los que aplica.", "ruta": "#/leyes" },
     { "icono": "proyecto", "titulo": "Mira cada proyecto", "texto": "Elige un proyecto y revisa todas las leyes que le aplican, ordenadas por relevancia y con el porqué de cada una.", "ruta": "#/proyectos" },
-    { "icono": "mapa", "titulo": "Sigue las conexiones", "texto": "En el mapa, toca una ley o un proyecto y se resaltan sus conexiones. Después revisa las conclusiones.", "ruta": "#/mapa" }
+    { "icono": "mapa", "titulo": "Sigue las conexiones", "texto": "En el mapa, toca una ley o un proyecto y se resaltan sus conexiones.", "ruta": "#/mapa" }
   ],
   "leyenda_titulo": "Cómo leer las conexiones",
   "leyenda": [
