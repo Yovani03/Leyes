@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leyes y software</title>
+  <meta name="description" content="Explorador interactivo que conecta las leyes mexicanas con los proyectos de software de la clase: a qué proyecto aplica cada ley y por qué.">
+  <meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23184f95'/%3E%3Cpath d='M32 14v34M20 50h24M18 22h28M18 22l-7 15a8 8 0 0 0 14 0zM46 22l-7 15a8 8 0 0 0 14 0z' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <script>
+    // Aplica el tema guardado antes de pintar para evitar parpadeos.
+    try { var t = localStorage.getItem('tema'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Saltar al contenido</a>
+
+  <header class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/" id="brand" aria-label="Ir al inicio"></a>
+      <nav class="nav-desktop" id="navDesktop" aria-label="Secciones"></nav>
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Cambiar entre tema claro y oscuro"></button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+
+  <nav class="nav-mobile" id="navMobile" aria-label="Secciones"></nav>
+
+  <div class="tooltip" id="tip" role="tooltip" hidden></div>
+
+  <noscript><p style="padding:2rem;font-family:sans-serif">Este sitio necesita JavaScript para mostrar las leyes y los proyectos.</p></noscript>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
