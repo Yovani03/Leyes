@@ -1,0 +1,16 @@
+# Sitio estático: no hay build. La carpeta raíz es la carpeta que se publica.
+[build]
+  publish = "."
+  command = ""
+
+# Los datos cambian seguido mientras se edita: que el navegador siempre los revise.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
