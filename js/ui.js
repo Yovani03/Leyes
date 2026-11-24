@@ -12,7 +12,7 @@ export const origenBadge = (c) =>
     : '<span class="pill pill-cruce">Cruce propuesto</span>';
 
 export const revisarBadge = (c) =>
-  c.revisar ? `<span class="pill pill-warn">${icon('bandera', 12)}Por revisar</span>` : '';
+  store.revisar && c.revisar ? `<span class="pill pill-warn">${icon('bandera', 12)}Por revisar</span>` : '';
 
 export const tipoLey = (l) => `<span class="pill pill-tipo">${esc(l.tipo)}</span>`;
 
@@ -51,7 +51,7 @@ export function conexionCard(c, modo) {
       ? `<a class="conn-title" href="#/proyectos/${proy.id}">${projectDot(proy)}<span><strong>${esc(proy.nombre_corto)}</strong><small>${esc(proy.alumno)}</small></span></a>`
       : `<a class="conn-title" href="#/leyes/${ley.id}"><span class="conn-law-ico">${icon('documento', 16)}</span><span><strong>${esc(ley.nombre_corto)}</strong><small>${esc(ley.tipo)} · ${esc(ley.ambito)}</small></span></a>`;
   return `
-    <article class="conn rel-border-${c.relevancia}${c.revisar ? ' is-revisar' : ''}" style="--c:var(--series-${proy.color})">
+    <article class="conn rel-border-${c.relevancia}${store.revisar && c.revisar ? ' is-revisar' : ''}" style="--c:var(--series-${proy.color})">
       <header class="conn-head">
         ${cabecera}
         <div class="conn-badges">${relBadge(c.relevancia)}${origenBadge(c)}${revisarBadge(c)}</div>
@@ -59,7 +59,7 @@ export function conexionCard(c, modo) {
       <p class="conn-why">${esc(c.porque)}</p>
       ${listaArticulos(ley, c.articulos_citados)}
       <p class="conn-src">${icon('documento', 13)} Fuente: ${esc(c.fuente)}</p>
-      ${c.revisar && c.nota_revision ? `<p class="conn-note">${icon('bandera', 14)}<span><strong>Por revisar:</strong> ${esc(c.nota_revision)}</span></p>` : ''}
+      ${store.revisar && c.revisar && c.nota_revision ? `<p class="conn-note">${icon('bandera', 14)}<span><strong>Por revisar:</strong> ${esc(c.nota_revision)}</span></p>` : ''}
     </article>`;
 }
 
@@ -78,8 +78,8 @@ export function leyDetalleHTML(ley) {
     <section class="drawer-sec">
       <h3>Resumen</h3>
       <p>${esc(ley.resumen)}</p>
-      ${ley.vigencia ? `<p class="vigencia">${icon('info', 15)}<span>${esc(ley.vigencia)}</span></p>` : ''}
-      ${ley.nota_sitio ? `<p class="conn-note">${icon('info', 14)}<span>${esc(ley.nota_sitio)}</span></p>` : ''}
+      ${ley.vigencia && (store.revisar || !ley.nota_es_revision) ? `<p class="vigencia">${icon('info', 15)}<span>${esc(ley.vigencia)}</span></p>` : ''}
+      ${ley.nota_sitio && (store.revisar || !ley.nota_es_revision) ? `<p class="conn-note">${icon('info', 14)}<span>${esc(ley.nota_sitio)}</span></p>` : ''}
       <div class="drawer-actions">
         ${ley.enlace_oficial ? `<a class="btn btn-ghost" href="${esc(ley.enlace_oficial)}" target="_blank" rel="noopener noreferrer">${icon('externo', 16)}Texto oficial (enlace del compañero)</a>` : ''}
         ${cons.length ? `<a class="btn btn-ghost" href="#/mapa?sel=l:${ley.id}">${icon('mapa', 16)}Ver en el mapa</a>` : ''}

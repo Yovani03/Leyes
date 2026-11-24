@@ -50,6 +50,7 @@ export function mount(root) {
       <h2 id="h-leer">${esc(s.leyenda_titulo)}</h2>
       <div class="legend-grid">
         ${s.leyenda
+          .filter((l) => store.revisar || l.clave !== 'revisar')
           .map((l) => {
             const pill = l.clave === 'documentada' ? '<span class="pill pill-doc">Documentada</span>' : l.clave === 'cruce' ? '<span class="pill pill-cruce">Cruce propuesto</span>' : `<span class="pill pill-warn">${icon('bandera', 12)}Por revisar</span>`;
             return `<div class="legend-item">${pill}<p>${esc(l.texto)}</p></div>`;
@@ -82,7 +83,7 @@ export function mount(root) {
     </section>
     <footer class="foot">${esc(s.institucion)}</footer>`;
 
-  pintarStats(root, p.estadisticas);
+  pintarStats(root, p.estadisticas.filter((d) => store.revisar || !d.solo_si_revisar));
   miniMapa(root);
 }
 

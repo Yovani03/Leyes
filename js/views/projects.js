@@ -85,12 +85,14 @@ function pintarDetalle() {
       <div class="tile"><b>${r.total}</b><span>leyes y normas que le aplican</span></div>
       <div class="tile"><b>${r.alta}</b><span>de relevancia alta</span></div>
       <div class="tile"><b>${r.doc}</b><span>documentadas por el compañero</span></div>
-      <div class="tile"><b>${r.revisar}</b><span>por revisar</span></div>
+      ${store.revisar
+        ? `<div class="tile"><b>${r.revisar}</b><span>por revisar</span></div>`
+        : `<div class="tile"><b>${r.total - r.doc}</b><span>cruces propuestos</span></div>`}
     </div>
 
     <div class="seg-wrap">
       ${seg('Relevancia', 'rel', [['todas', 'Todas'], ...RELS.map((x) => [x, cap(x)])])}
-      ${seg('Origen', 'origen', [['todas', 'Todas'], ['documentada', 'Documentadas'], ['cruce', 'Cruces'], ['revisar', 'Por revisar']])}
+      ${seg('Origen', 'origen', [['todas', 'Todas'], ['documentada', 'Documentadas'], ['cruce', 'Cruces'], ...(store.revisar ? [['revisar', 'Por revisar']] : [])])}
       ${seg('Agrupar por', 'grupo', [['relevancia', 'Relevancia'], ['tema', 'Tema']])}
     </div>
 

@@ -44,7 +44,7 @@ function hallazgos({ leyes, proys }) {
   const masAlta = [...proys].sort((a, b) => b.alta - a.alta)[0];
   out.push(`Con más conexiones de relevancia alta: <strong>${esc(masAlta.p.nombre_corto)}</strong> (${masAlta.alta}).`);
   const pct = Math.round((store.stats.documentadas / store.stats.conexiones) * 100);
-  out.push(`${pct}% de las conexiones están documentadas por el propio compañero; el resto son cruces propuestos aquí. En total hay <strong>${store.stats.revisar}</strong> conexiones marcadas para revisión.`);
+  out.push(`${pct}% de las conexiones están documentadas por el propio compañero; el resto (<strong>${store.stats.cruces}</strong>) son cruces propuestos aquí a partir del análisis de otro compañero.${store.revisar ? ` En total hay <strong>${store.stats.revisar}</strong> conexiones marcadas para revisión.` : ''}`);
   return out;
 }
 
@@ -90,7 +90,7 @@ function barrasMateria(porMateria) {
 function matriz(leyes) {
   const mapa = new Map(store.conexiones.map((c) => [c.ley + '|' + c.proyecto, c]));
   const letra = { alta: 'A', media: 'M', baja: 'B' };
-  return `<div class="chart-legend"><span><i class="sw sw-alta"></i>A = alta</span><span><i class="sw sw-media"></i>M = media</span><span><i class="sw" style="background:color-mix(in srgb, var(--rel-baja) 45%, var(--surface));border:1px solid var(--line-strong)"></i>B = baja</span><span><i class="sw sw-cruce"></i>Rayado = cruce propuesto</span><span>${icon('bandera', 12)} = por revisar</span></div>
+  return `<div class="chart-legend"><span><i class="sw sw-alta"></i>A = alta</span><span><i class="sw sw-media"></i>M = media</span><span><i class="sw" style="background:color-mix(in srgb, var(--rel-baja) 45%, var(--surface));border:1px solid var(--line-strong)"></i>B = baja</span><span><i class="sw sw-cruce"></i>Rayado = cruce propuesto</span>${store.revisar ? `<span>${icon('bandera', 12)} = por revisar</span>` : ''}</div>
     <div class="matrix-wrap"><table class="matrix"><thead><tr><th scope="col">Ley o norma</th>
       ${store.proyectos.map((p) => `<th scope="col" style="--c:var(--series-${p.color})" data-tip="${esc(p.nombre_corto)} · ${esc(p.alumno_corto)}"><a href="#/proyectos/${p.id}" style="color:inherit">${esc(p.siglas)}</a></th>`).join('')}</tr></thead>
     <tbody>${leyes
@@ -100,7 +100,7 @@ function matriz(leyes) {
           .map((p) => {
             const c = mapa.get(x.l.id + '|' + p.id);
             if (!c) return '<td></td>';
-            return `<td><a class="cell ${c.relevancia}${c.tipo === 'cruce' ? ' cruce' : ''}" href="#/leyes/${x.l.id}" data-tip="${esc(x.l.nombre_corto)} → ${esc(p.nombre_corto)} · ${c.relevancia}${c.tipo === 'cruce' ? ' · cruce propuesto' : ''}${c.revisar ? ' · por revisar' : ''}" aria-label="${esc(x.l.nombre_corto)} y ${esc(p.nombre_corto)}: relevancia ${c.relevancia}">${letra[c.relevancia]}${c.revisar ? `<span class="flag">⚑</span>` : ''}</a></td>`;
+            return `<td><a class="cell ${c.relevancia}${c.tipo === 'cruce' ? ' cruce' : ''}" href="#/leyes/${x.l.id}" data-tip="${esc(x.l.nombre_corto)} → ${esc(p.nombre_corto)} · ${c.relevancia}${c.tipo === 'cruce' ? ' · cruce propuesto' : ''}${store.revisar && c.revisar ? ' · por revisar' : ''}" aria-label="${esc(x.l.nombre_corto)} y ${esc(p.nombre_corto)}: relevancia ${c.relevancia}">${letra[c.relevancia]}${store.revisar && c.revisar ? `<span class="flag">⚑</span>` : ''}</a></td>`;
           })
           .join('')}</tr>`
       )
@@ -126,7 +126,7 @@ export function mount(root) {
     [d.leyes.filter((x) => x.total >= 2).length, 'leyes aplican a 2 o más proyectos'],
     [d.leyes[0].total, 'proyectos comparten la ley más común'],
     [mejorProy.total, `leyes en el proyecto con más obligaciones`],
-    [store.stats.revisar, 'conexiones por revisar'],
+    store.revisar ? [store.stats.revisar, 'conexiones por revisar'] : [store.stats.cruces, 'cruces propuestos entre compañeros'],
   ];
   root.innerHTML = `
     <div class="wrap">
@@ -152,10 +152,10 @@ export function mount(root) {
         <div class="panel"><h3>Matriz completa: ley × proyecto</h3><p class="sub">Cada celda es una conexión. Toca una celda para abrir la ley y ver el porqué.</p>${matriz(d.leyes)}</div>
       </section>
 
-      <section class="section two-col" style="padding-top:16px;padding-left:0;padding-right:0">
+      <section class="section ${store.revisar ? 'two-col' : ''}" style="padding-top:16px;padding-left:0;padding-right:0">
         <div class="panel"><h3>Temas con más conexiones</h3><p class="sub">Dónde se concentra la regulación.</p>${barrasMateria(d.porMateria)}</div>
-        <div class="panel"><h3>Pendiente de revisar</h3><p class="sub">Conexiones que conviene confirmar antes de entregar el trabajo.</p>
-          <details class="fold" open><summary>${store.stats.revisar} conexiones marcadas</summary>${porRevisar()}</details></div>
+        ${store.revisar ? `<div class="panel"><h3>Pendiente de revisar</h3><p class="sub">Conexiones que conviene confirmar antes de entregar el trabajo.</p>
+          <details class="fold" open><summary>${store.stats.revisar} conexiones marcadas</summary>${porRevisar()}</details></div>` : ''}
       </section>
       <div style="height:40px"></div>
     </div>`;

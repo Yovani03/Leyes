@@ -9,7 +9,7 @@ const filtro = { alta: true, media: true, baja: true, cruces: true, revisar: tru
 let root, svg, panel, seleccion = null, ancho = 0, ro = null;
 
 const visibles = () =>
-  store.conexiones.filter((c) => filtro[c.relevancia] && (filtro.cruces || c.tipo !== 'cruce') && (filtro.revisar || !c.revisar));
+  store.conexiones.filter((c) => filtro[c.relevancia] && (filtro.cruces || c.tipo !== 'cruce') && (!store.revisar || filtro.revisar || !c.revisar));
 
 function trazar() {
   const cons = visibles();
@@ -34,7 +34,7 @@ function trazar() {
     const proy = store.proy.get(c.proyecto);
     const x1 = xL + 5, y1 = yL(li.get(c.ley)), x2 = xR, y2 = yP(store.proyIndex.get(c.proyecto));
     const xm = (x1 + x2) / 2;
-    lineas += `<path class="map-line d-${c.relevancia}${c.revisar ? ' rev' : ''}" data-l="${c.ley}" data-p="${c.proyecto}" style="--c:var(--series-${proy.color})" d="M${x1} ${y1} C${xm} ${y1} ${xm} ${y2} ${x2} ${y2}"><title>${esc(store.ley.get(c.ley).nombre_corto)} → ${esc(proy.nombre_corto)} · relevancia ${c.relevancia}${c.revisar ? ' · por revisar' : ''}</title></path>`;
+    lineas += `<path class="map-line d-${c.relevancia}${store.revisar && c.revisar ? ' rev' : ''}" data-l="${c.ley}" data-p="${c.proyecto}" style="--c:var(--series-${proy.color})" d="M${x1} ${y1} C${xm} ${y1} ${xm} ${y2} ${x2} ${y2}"><title>${esc(store.ley.get(c.ley).nombre_corto)} → ${esc(proy.nombre_corto)} · relevancia ${c.relevancia}${store.revisar && c.revisar ? ' · por revisar' : ''}${c.tipo === 'cruce' ? ' · cruce propuesto' : ''}</title></path>`;
   }
 
   let nodosL = '';
@@ -109,7 +109,7 @@ function pintarPanel() {
         <p class="panel-meta">${esc(l.tipo)} · ${esc(l.ambito)} · aplica a ${plural(mias.length, 'proyecto', 'proyectos')}</p></div></div>
       <div class="panel-list">${mias.map((c) => {
         const p = store.proy.get(c.proyecto);
-        return `<button type="button" class="panel-row" data-sel="p:${p.id}">${projectDot(p)}<span class="name">${esc(p.nombre_corto)} <small style="color:var(--ink-3)">· ${esc(p.alumno_corto)}</small></span>${relBadge(c.relevancia).replace('Relevancia ', '')}${c.revisar ? icon('bandera', 14) : ''}</button>`;
+        return `<button type="button" class="panel-row" data-sel="p:${p.id}">${projectDot(p)}<span class="name">${esc(p.nombre_corto)} <small style="color:var(--ink-3)">· ${esc(p.alumno_corto)}</small></span>${relBadge(c.relevancia).replace('Relevancia ', '')}${store.revisar && c.revisar ? icon('bandera', 14) : ''}</button>`;
       }).join('')}</div>
       <div class="panel-actions"><a class="btn btn-primary" href="#/leyes/${l.id}">Ver detalle y porqué ${icon('flecha', 15)}</a><button class="btn btn-ghost" type="button" data-clear>Quitar selección</button></div>`;
   } else {
@@ -120,7 +120,7 @@ function pintarPanel() {
         <p class="panel-meta">Proyecto de ${esc(p.alumno)} · ${plural(mias.length, 'ley', 'leyes')} (según los filtros)</p></div></div>
       <div class="panel-list">${mias.map((c) => {
         const l = store.ley.get(c.ley);
-        return `<button type="button" class="panel-row" data-sel="l:${l.id}"><span class="conn-law-ico">${icon('documento', 15)}</span><span class="name">${esc(l.nombre_corto)}</span>${relBadge(c.relevancia).replace('Relevancia ', '')}${c.revisar ? icon('bandera', 14) : ''}</button>`;
+        return `<button type="button" class="panel-row" data-sel="l:${l.id}"><span class="conn-law-ico">${icon('documento', 15)}</span><span class="name">${esc(l.nombre_corto)}</span>${relBadge(c.relevancia).replace('Relevancia ', '')}${store.revisar && c.revisar ? icon('bandera', 14) : ''}</button>`;
       }).join('')}</div>
       <div class="panel-actions"><a class="btn btn-primary" href="#/proyectos/${p.id}">Ver el proyecto ${icon('flecha', 15)}</a><button class="btn btn-ghost" type="button" data-clear>Quitar selección</button></div>`;
   }
@@ -131,13 +131,13 @@ function controles() {
   return `
     <div class="map-controls">
       <div class="seg-group"><span>Relevancia</span><div class="chips" style="padding:0;overflow:visible" role="group" aria-label="Relevancia">${RELS.map((r) => tog(r, cap(r))).join('')}</div></div>
-      <div class="seg-group"><span>Origen</span><div class="chips" style="padding:0;overflow:visible" role="group" aria-label="Origen">${tog('cruces', 'Cruces propuestos')}${tog('revisar', 'Por revisar')}</div></div>
+      <div class="seg-group"><span>Origen</span><div class="chips" style="padding:0;overflow:visible" role="group" aria-label="Origen">${tog('cruces', 'Cruces propuestos')}${store.revisar ? tog('revisar', 'Por revisar') : ''}</div></div>
     </div>
     <div class="map-legend" aria-label="Cómo leer las líneas">
       <span><svg viewBox="0 0 34 8"><path d="M0 4h34" stroke="var(--ink-3)" stroke-width="2.6"/></svg>Relevancia alta</span>
       <span><svg viewBox="0 0 34 8"><path d="M0 4h34" stroke="var(--ink-3)" stroke-width="1.6"/></svg>Media</span>
       <span><svg viewBox="0 0 34 8"><path d="M0 4h34" stroke="var(--ink-3)" stroke-width="1"/></svg>Baja</span>
-      <span><svg viewBox="0 0 34 8"><path d="M0 4h34" stroke="var(--ink-3)" stroke-width="1.6" stroke-dasharray="5 4"/></svg>Por revisar (discontinua)</span>
+      ${store.revisar ? '<span><svg viewBox="0 0 34 8"><path d="M0 4h34" stroke="var(--ink-3)" stroke-width="1.6" stroke-dasharray="5 4"/></svg>Por revisar (discontinua)</span>' : ''}
     </div>`;
 }
 

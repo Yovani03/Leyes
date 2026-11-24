@@ -31,7 +31,7 @@ function filtrar() {
     if (filtros.ambito && !l.ambito.startsWith(filtros.ambito)) return false;
     if (filtros.tipo && l.tipo !== filtros.tipo) return false;
     if (filtros.proyecto && !cons.some((c) => c.proyecto === filtros.proyecto)) return false;
-    if (filtros.revisar && !cons.some((c) => c.revisar)) return false;
+    if (store.revisar && filtros.revisar && !cons.some((c) => c.revisar)) return false;
     if (palabras.length) { const t = indice.get(l.id); if (!palabras.every((w) => t.includes(w))) return false; }
     return true;
   });
@@ -47,7 +47,7 @@ function filtrar() {
 function tarjeta(l) {
   const cons = store.porLey.get(l.id);
   const mejor = maxRel(cons);
-  const rev = cons.filter((c) => c.revisar).length;
+  const rev = store.revisar ? cons.filter((c) => c.revisar).length : 0;
   const m = store.materia.get(l.materia);
   const proys = [...new Set(cons.map((c) => c.proyecto))].map((id) => store.proy.get(id)).sort((a, b) => store.proyIndex.get(a.id) - store.proyIndex.get(b.id));
   return `
@@ -85,7 +85,7 @@ function limpiar() {
   $('#fAmbito', root).value = '';
   $('#fTipo', root).value = '';
   $('#fProy', root).value = '';
-  $('#fRev', root).checked = false;
+  if ($('#fRev', root)) $('#fRev', root).checked = false;
   $$('.chip', root).forEach((c) => c.setAttribute('aria-pressed', 'false'));
   pintarResultados();
 }
@@ -121,7 +121,7 @@ export function mount(el, ruta) {
           <label class="field">Tipo<select id="fTipo"><option value="">Todos</option>${tipos.map((t) => `<option>${esc(t)}</option>`).join('')}</select></label>
           <label class="field">Aplica al proyecto<select id="fProy"><option value="">Todos</option>${store.proyectos.map((p) => `<option value="${p.id}">${esc(p.nombre_corto)} · ${esc(p.alumno_corto)}</option>`).join('')}</select></label>
           <label class="field">Ordenar por<select id="fOrden"><option value="proyectos">Más proyectos</option><option value="relevancia">Mayor relevancia</option><option value="az">Nombre (A-Z)</option></select></label>
-          <label class="check"><input type="checkbox" id="fRev"> Con conexiones por revisar</label>
+          ${store.revisar ? '<label class="check"><input type="checkbox" id="fRev"> Con conexiones por revisar</label>' : ''}
         </div>
       </div>
 
@@ -144,7 +144,7 @@ export function mount(el, ruta) {
   $('#fTipo', root).addEventListener('change', (e) => { filtros.tipo = e.target.value; pintarResultados(); });
   $('#fProy', root).addEventListener('change', (e) => { filtros.proyecto = e.target.value; pintarResultados(); });
   $('#fOrden', root).addEventListener('change', (e) => { filtros.orden = e.target.value; pintarResultados(); });
-  $('#fRev', root).addEventListener('change', (e) => { filtros.revisar = e.target.checked; pintarResultados(); });
+  $('#fRev', root)?.addEventListener('change', (e) => { filtros.revisar = e.target.checked; pintarResultados(); });
   root.addEventListener('click', (e) => {
     const chip = e.target.closest('[data-materia]');
     if (chip) {
@@ -178,7 +178,7 @@ export function mount(el, ruta) {
   $('#fTipo', root).value = filtros.tipo;
   $('#fProy', root).value = filtros.proyecto;
   $('#fOrden', root).value = filtros.orden;
-  $('#fRev', root).checked = filtros.revisar;
+  if ($('#fRev', root)) $('#fRev', root).checked = filtros.revisar;
   $$('.chip', root).forEach((c) => c.setAttribute('aria-pressed', String(filtros.materias.has(c.dataset.materia))));
 
   pintarResultados();
