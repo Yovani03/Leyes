@@ -30,7 +30,11 @@ export async function loadData() {
   store.porLey.forEach((a) => a.sort((x, y) => orden(x, y) || store.proyIndex.get(x.proyecto) - store.proyIndex.get(y.proyecto)));
   store.porProy.forEach((a) => a.sort((x, y) => orden(x, y) || store.ley.get(x.ley).nombre_corto.localeCompare(store.ley.get(y.ley).nombre_corto, 'es')));
 
+  // Interruptor en data/sitio.json: false oculta todo lo "por revisar" sin borrar los datos.
+  store.revisar = sitio.mostrar_por_revisar !== false;
+
   store.stats = {
+    cruces: conexiones.filter((c) => c.tipo === 'cruce').length,
     leyes: leyes.length,
     proyectos: proyectos.length,
     conexiones: conexiones.length,

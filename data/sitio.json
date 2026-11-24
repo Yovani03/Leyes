@@ -2,6 +2,7 @@
   "titulo_sitio": "Leyes y software",
   "marca": "Leyes × Software",
   "institucion": "Universidad Tecnológica de Tlaxcala · Ingeniería en TI e Innovación Digital · 7º B",
+  "mostrar_por_revisar": false,
   "portada": {
     "eyebrow": "Trabajo de la materia · Noviembre 2026",
     "titulo": "¿Qué leyes gobiernan el software que estamos construyendo?",
@@ -12,7 +13,8 @@
       { "clave": "leyes", "etiqueta": "leyes y normas" },
       { "clave": "proyectos", "etiqueta": "proyectos" },
       { "clave": "conexiones", "etiqueta": "conexiones" },
-      { "clave": "revisar", "etiqueta": "por revisar" }
+      { "clave": "cruces", "etiqueta": "cruces propuestos", "solo_si_revisar": false },
+      { "clave": "revisar", "etiqueta": "por revisar", "solo_si_revisar": true }
     ]
   },
   "pasos": [
@@ -23,7 +25,7 @@
   "leyenda_titulo": "Cómo leer las conexiones",
   "leyenda": [
     { "clave": "documentada", "titulo": "Documentada", "texto": "El propio compañero dice que esa ley aplica a su proyecto, y cita los artículos." },
-    { "clave": "cruce", "titulo": "Cruce propuesto", "texto": "La ley la analizó otro compañero; se propone que también aplica. Siempre queda marcada para revisión." },
+    { "clave": "cruce", "titulo": "Cruce propuesto", "texto": "La ley la analizó otro compañero; se propone que también aplica." },
     { "clave": "revisar", "titulo": "Por revisar", "texto": "Falta confirmar algo: el artículo, la vigencia o si la ley realmente aplica." }
   ],
   "relevancias": {
