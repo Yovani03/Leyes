@@ -54,6 +54,10 @@ Nada está escrito en el HTML. Para cambiar o agregar contenido, edita los JSON 
 - Si no estás seguro de una conexión, pon `"revisar": true` y explica en `nota_revision`.
   Los cruces propuestos (`"tipo": "cruce"`) siempre van con `revisar: true`.
 
+**Mostrar u ocultar lo «por revisar»:** en `data/sitio.json`, `"mostrar_por_revisar": false` oculta las
+insignias, notas, filtros y la sección de pendientes (los datos `revisar` se conservan). Cámbialo a `true`
+para volver a verlos, por ejemplo cuando quieras revisar las conexiones dudosas.
+
 Valida los datos antes de subir cambios:
 
 ```powershell

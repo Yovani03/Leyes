@@ -81,9 +81,10 @@
     ],
     "articulos": [
       { "ref": "Sin artículo citado", "resumen": "Fija el interés superior de la niñez en cualquier servicio donde se involucren menores, garantiza derechos como la educación, el acceso a la información y la participación cultural, prohíbe la divulgación o el manejo indebido de sus datos personales o imágenes y crea el Sistema Nacional de Protección (SIPINNA).", "fuente": "Rafael Arenas" },
-      { "ref": "Art. 76", "resumen": "Reconoce el derecho a la intimidad y a la protección de los datos personales de niñas, niños y adolescentes. Axel indica que la ubicación (Título Segundo, Capítulo Décimo Sexto) y el número de artículo deben confirmarse en el texto oficial.", "fuente": "Axel López" }
+      { "ref": "Art. 76", "resumen": "Reconoce el derecho a la intimidad y a la protección de los datos personales de niñas, niños y adolescentes (Título Segundo, Capítulo Décimo Sexto, según Axel).", "fuente": "Axel López" }
     ],
-    "nota_sitio": "El propio Axel pide confirmar el número de artículo en el texto oficial de la Cámara de Diputados."
+    "nota_sitio": "El propio Axel pide confirmar el número de artículo en el texto oficial de la Cámara de Diputados.",
+    "nota_es_revision": true
   },
   {
     "id": "lge",
@@ -313,7 +314,7 @@
       { "ref": "Art. 4", "resumen": "Señala como supletorios el Código Nacional de Procedimientos Civiles y Familiares y la Ley Federal de Procedimiento Administrativo.", "fuente": "Axel López" },
       { "ref": "Sin artículo citado", "resumen": "SIDNEC debe cumplirla además de la LFT: aviso de privacidad, uso de los datos solo para el diagnóstico, medidas de seguridad y atención de solicitudes ARCO. La LFT justifica el uso de los datos y la LFPDPPP pone los límites.", "fuente": "Esmeralda Luna" }
     ],
-    "nota_sitio": "Esta ley rige a los particulares (empresas, despachos). Las autoridades públicas, como una Presidencia o la UAT, se rigen por otra ley de datos que ningún compañero analizó; por eso las conexiones con proyectos públicos van marcadas para revisión."
+    "nota_sitio": "Esta ley rige a los particulares (empresas, despachos). Las autoridades públicas, como una Presidencia o la UAT, se rigen por otra ley de datos que ningún compañero analizó."
   },
   {
     "id": "lfpc",
@@ -480,7 +481,7 @@
     "tipo": "Reglamento",
     "ambito": "Federal",
     "materia": "datos",
-    "resumen": "Su capítulo de medidas de seguridad respalda los controles técnicos y administrativos de GoMOVI y el de autorregulación respalda el código interno de privacidad propuesto. Axel pide confirmar qué partes siguen vigentes con la nueva ley.",
+    "resumen": "Su capítulo de medidas de seguridad respalda los controles técnicos y administrativos de GoMOVI y el de autorregulación respalda el código interno de privacidad propuesto.",
     "vigencia": "Vigencia por confirmar con la nueva Ley (según Axel López).",
     "enlace_oficial": null,
     "estado_analisis": "analizada",
@@ -491,7 +492,8 @@
       { "ref": "Arts. 57 a 66", "resumen": "Medidas de seguridad.", "fuente": "Axel López" },
       { "ref": "Arts. 79 a 86", "resumen": "Autorregulación.", "fuente": "Axel López" }
     ],
-    "nota_sitio": "Vigencia por confirmar, según el propio expediente de Axel."
+    "nota_sitio": "Vigencia por confirmar, según el propio expediente de Axel.",
+    "nota_es_revision": true
   },
   {
     "id": "lineamientos",
@@ -501,7 +503,7 @@
     "tipo": "Lineamientos",
     "ambito": "Federal",
     "materia": "datos",
-    "resumen": "Se integran como guía del contenido que debe tener el aviso de privacidad. Axel pide confirmar cuáles siguen vigentes con la nueva ley.",
+    "resumen": "Se integran como guía del contenido que debe tener el aviso de privacidad.",
     "vigencia": "Vigencia por confirmar con la nueva Ley (según Axel López).",
     "enlace_oficial": null,
     "estado_analisis": "analizada",
@@ -511,7 +513,8 @@
     "articulos": [
       { "ref": "Sin artículo citado", "resumen": "Guía de contenido del aviso de privacidad; no se citan artículos.", "fuente": "Axel López" }
     ],
-    "nota_sitio": "Vigencia por confirmar, según el propio expediente de Axel."
+    "nota_sitio": "Vigencia por confirmar, según el propio expediente de Axel.",
+    "nota_es_revision": true
   },
   {
     "id": "nom151",
