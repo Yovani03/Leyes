@@ -1,0 +1,21 @@
+# Material de origen (muy pesado, no va al repositorio)
+Ya pasaron -*/
+No han pasado -*/
+*.zip
+docs/originales/
+
+# Archivos temporales de Office
+~$*
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+
+# Dependencias y logs (por si se usan herramientas locales)
+node_modules/
+*.log
+.netlify/
