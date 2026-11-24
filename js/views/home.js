@@ -77,10 +77,6 @@ export function mount(root) {
       </div>
     </section>
 
-    <section class="section" aria-labelledby="h-av">
-      <h2 id="h-av">${esc(s.avisos_titulo)}</h2>
-      <ul class="avisos">${s.avisos.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>
-    </section>
     <footer class="foot">${esc(s.institucion)}</footer>`;
 
   pintarStats(root, p.estadisticas.filter((d) => store.revisar || !d.solo_si_revisar));

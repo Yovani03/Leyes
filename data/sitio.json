@@ -33,12 +33,6 @@
     "media": "La ley aplica de forma importante, pero no es la base del proyecto.",
     "baja": "La ley aplica de forma complementaria o por analogía."
   },
-  "avisos_titulo": "Fuentes y límites",
-  "avisos": [
-    "Todo el contenido sale de los análisis que presentaron los compañeros. No se copió texto oficial de las leyes ni se agregaron artículos que ellos no citaran.",
-    "Cuando un compañero no cita número de artículo, se indica «Sin artículo citado».",
-    "Es un trabajo académico y no sustituye la asesoría jurídica."
-  ],
   "materias": [
     { "id": "constitucional", "nombre": "Constitución y derechos humanos", "color": "#2a78d6" },
     { "id": "cultura", "nombre": "Cultura y educación", "color": "#8a6bd1" },

@@ -257,9 +257,6 @@ main { outline: none; }
 .proj-chip { display: inline-flex; align-items: center; gap: 10px; padding: 8px 14px 8px 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; color: var(--ink); font-size: .9rem; font-weight: 600; }
 .proj-chip small { display: block; color: var(--ink-3); font-weight: 500; font-size: .75rem; line-height: 1.2; }
 .proj-chip:hover { text-decoration: none; border-color: var(--c); background: var(--surface-2); }
-.avisos { background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
-.avisos li { position: relative; padding-left: 20px; color: var(--ink-2); font-size: .93rem; margin: 6px 0; }
-.avisos li::before { content: ""; position: absolute; left: 3px; top: .6em; width: 7px; height: 7px; border-radius: 50%; background: var(--brand-2); }
 .foot { max-width: var(--maxw); margin: 0 auto; padding: 40px var(--gutter) 28px; color: var(--ink-3); font-size: .84rem; }
 
 /* ---------- Formularios (explorador) ---------- */
